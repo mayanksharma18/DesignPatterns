@@ -37,7 +37,7 @@ JavaScript recursively walks down all the objects that __proto__ points to, unti
 Object.create is a simple way to let objects directly inherit properties from other objects, by specifying the newly created object's prototype.
 The new object can access the new properties by walking down the prototype chain.
 
-```
+
 Object.create
 The Object.create method lets us create a new object, to which we can explicitly pass the value of its prototype.
 
